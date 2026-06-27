@@ -1,0 +1,84 @@
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 650;
+  color: #202223;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #6d7175;
+  line-height: 1.6;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e1e3e5;
+  border-radius: 12px;
+  padding: 28px;
+}
+
+.label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #202223;
+  margin-bottom: 10px;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 110px;
+  resize: vertical;
+
+  padding: 14px 16px;
+
+  border: 1px solid #c9cccf;
+  border-radius: 10px;
+
+  font-size: 14px;
+  line-height: 1.6;
+
+  box-sizing: border-box;
+  transition: border-color 0.2s ease;
+}
+
+.textarea:focus {
+  outline: none;
+  border-color: #008060;
+}
+
+.counter {
+  margin-top: 8px;
+  text-align: right;
+  color: #6d7175;
+  font-size: 13px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 18px;
+}
+
+.infoBox {
+  margin-top: 24px;
+  padding: 16px;
+  border-radius: 10px;
+
+  background: #f6f6f7;
+  border: 1px solid #e1e3e5;
+
+  color: #4a4a4a;
+  font-size: 14px;
+  line-height: 1.6;
+}
